@@ -25,7 +25,7 @@ jQuery(document).ready(function() {
 	    var radius = e.accuracy / 2;
 
 	    L.marker(e.latlng).addTo(map)
-	        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+	        .bindPopup("La tarta esta " + radius + " metros al rededor de cui").openPopup();
 
 	    L.circle(e.latlng, radius).addTo(map);
 	}
